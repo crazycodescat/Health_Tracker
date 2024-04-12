@@ -3,7 +3,7 @@ import { GoChevronRight } from 'react-icons/go';
 
 const IntroSlides = ({ img, title, desc, nextSlideHandler }) => {
   return (
-    <div className="flex flex-col gap-12">
+    <div className="max-w-[375px] mx-auto flex flex-col gap-12">
       <div className="flex justify-end">
         <a
           href="/register"

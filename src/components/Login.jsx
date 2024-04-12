@@ -20,7 +20,7 @@ const Login = () => {
   };
 
   return (
-    <div className="flex flex-col justify-between h-screen font-[roboto] pt-12 pb-4 px-4">
+    <div className="max-w-[375px] mx-auto flex flex-col justify-between h-screen font-[roboto] pt-12 pb-4 px-4">
       <div className="">
         <div className="mb-11">
           <h2 className="font-semibold text-xl">Welcome Back</h2>

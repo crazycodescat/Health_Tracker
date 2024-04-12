@@ -12,7 +12,7 @@ const Register = () => {
   return (
     <>
       {!show && (
-        <div className="flex flex-col justify-between h-screen font-[roboto] pt-12 pb-4 px-4">
+        <div className="max-w-[375px] mx-auto flex flex-col justify-between h-screen font-[roboto] pt-12 pb-4 px-4">
           <div className="">
             <div className="mb-11">
               <h2 className="font-semibold text-xl">Create an account</h2>
@@ -90,7 +90,7 @@ const Register = () => {
         </div>
       )}
       {show && (
-        <div className="px-4">
+        <div className="px-4 max-w-[375px] mx-auto">
           <div className="mt-10 text-center">
             <h2 className="font-semibold text-xl">What are your goals?</h2>
           </div>

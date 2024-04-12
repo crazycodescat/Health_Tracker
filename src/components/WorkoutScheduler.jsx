@@ -1,5 +1,4 @@
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa6';
-import { FiAlertTriangle } from 'react-icons/fi';
 import { motion } from 'framer-motion';
 
 import NavBar from '../components/NavBar';
@@ -106,9 +105,14 @@ const WorkoutScheduler = () => {
           <p className="p-4 text-[12px] font-[montserrat] font-semibold">
             01:00 AM
           </p>
-          <p className="p-4 text-[12px] font-[montserrat] font-semibold">
-            02:00 AM
-          </p>
+          <div className="relative">
+            <p className="p-4 text-[12px] font-[montserrat] font-semibold">
+              02:00 AM
+            </p>
+            <div className="absolute bottom-[6px] right-20 rounded-full p-2 px-3 bg-[#F1F1F1] text-[#2C2B2B]">
+              <p className="font-semibold text-xs">Lowerbody Workout, 2pm</p>
+            </div>
+          </div>
           <p className="p-4 text-[12px] font-[montserrat] font-semibold">
             03:00 AM
           </p>
@@ -129,20 +133,26 @@ const WorkoutScheduler = () => {
 export default WorkoutScheduler;
 
 const container = {
-  hidden: { x: -100, y: 450, opacity: 0, width: '200px' },
+  hidden: {
+    x: -100,
+    y: 450,
+    opacity: 0,
+    width: '200px',
+    height: '100px',
+  },
   show: {
     x: 0,
     y: 0,
     width: '150px',
+    height: '32px',
     opacity: 1,
     transition: {
-      staggerChildren: 0.5,
-      type: '',
+      duration: 1,
     },
   },
 };
 
 const listItem = {
-  hidden: { y: -20, opacity: 1 },
-  show: { y: 0, opacity: 1, transition: { delay: 0.4 } },
+  hidden: { y: -22, opacity: 0 },
+  show: { y: 0, opacity: 1, transition: { delay: 1.1 } },
 };
