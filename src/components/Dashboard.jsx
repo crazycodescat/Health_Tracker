@@ -166,7 +166,7 @@ const Dashboard = () => {
             <div className="flex gap-4 items-center">
               <div className="w-16 h-16 bg-slate-200 rounded-full">
                 <img
-                  src="./images/269733701b8604f00f8ab3dbc8874dc4.png"
+                  src="https://res.cloudinary.com/ddx7todbr/image/upload/v1712932919/healthTracker/l7et3ydsprjson53mq7y.png"
                   alt=""
                 />
               </div>
@@ -185,7 +185,7 @@ const Dashboard = () => {
             <div className="flex gap-4 items-center">
               <div className="flex w-16 h-16 overflow-hidden bg-slate-200 rounded-full">
                 <img
-                  src="./images/63ce83a9876ee1cadf652148a636fe39.png"
+                  src="https://res.cloudinary.com/ddx7todbr/image/upload/v1712932919/healthTracker/gv5wojed7bn01z64p7jo.png"
                   alt=""
                 />
               </div>
@@ -220,7 +220,7 @@ const Dashboard = () => {
             </div>
             <div className="w-[100px] h-[100px] bg-[#ffffff6b] rounded-full">
               <img
-                src="./images/32610d884493905711642300c8cc67c0.png"
+                src="https://res.cloudinary.com/ddx7todbr/image/upload/v1712932919/healthTracker/jorlcd9xdzxkszrqjgzt.png"
                 alt=""
                 className=""
               />

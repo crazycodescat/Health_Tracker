@@ -6,12 +6,12 @@ const slidesData = {
   1: {
     title: 'Track Your Goal',
     desc: 'Don’t worry if you have trouble determining your goals, We can help you determine your goals and track your goals',
-    img: 'images/cb36b0b2aebaab8d7bad4ecbedf2a369.png',
+    img: 'https://res.cloudinary.com/ddx7todbr/image/upload/v1712932919/healthTracker/yku572uvw6yomjhrtect.png',
   },
   2: {
     title: 'Get Burn',
     desc: 'Let’s keep burning to achieve your goals, it hurts only temporarily, if you give up now you will be in pain forever',
-    img: 'images/dbf14a6d26ec54e2ba9e71eaef184f6b.png',
+    img: 'https://res.cloudinary.com/ddx7todbr/image/upload/v1712932920/healthTracker/urftod2ksg0duuzgpmeu.png',
   },
 };
 
